@@ -21,7 +21,7 @@ Solo se encriptaran las letras de los mensajes, dejando el resto de caracteres s
 """
 alfabeto="abcdefghijklmnñopqrstuvwxyz"
 corrimiento=int(input("Ingrese el corrimiento: "))
-for i in range(5):
+for i in range(5): 
     mensaje = input("ingrese el msj a encriptar: ")
     encriptado = ""
     for caracter in mensaje:
